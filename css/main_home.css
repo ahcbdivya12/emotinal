@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+		
+}
+header{
+		background-image:url("../images/Emotional fund (1).png");
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+
+	}
+.logo img{  
+	float: left;
+  width: 150px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: black;
+	font-size: 70px;
+}
+.button{
+	position: absolute;
+	margin-top: 130px;
+	font-size: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	padding: 10px 30px;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #000;
+	color: #fff;
+}
+

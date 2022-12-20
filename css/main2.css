@@ -1,0 +1,29 @@
+  
+
+.img2 {
+  float: right;
+  width:460px;
+  height:500px;
+border: 13px solid gray;
+}
+.img3 {
+ 
+  width:300px;
+  height:300px;
+  
+  margin-top:80px;
+border: 9px solid gray;
+
+}.img4 {
+ float : right;
+  width:300px;
+  height:300px;
+  margin-top:120px;
+border: 9px solid gray;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
